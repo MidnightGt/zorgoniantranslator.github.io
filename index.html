@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zorgonian Translator</title>
+    <link rel="icon" href="https://static-00.iconduck.com/assets.00/alien-emoji-2037x2048-jej1gl63.png" type="image/png">
+</head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profile">
+            <h2>Zorgonian Translator (Made by MidnightGt)</h2>
+            <p>Translate English to Zorgonian!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Translate</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <input type="text" placeholder="Search...">
+        </header>
+        <section class="translator-section">
+            <div class="translator-card">
+                <textarea id="input-text" placeholder="Enter text to translate..."></textarea>
+                <button onclick="translateText()">Translate</button>
+                <p id="output-text">Translation will appear here...</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
